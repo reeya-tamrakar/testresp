@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  color: #fff;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+h3,
+h4 {
+  color: #023047;
+  font-size: 32px;
+}
+
+.btnn {
+  border: none;
+  background: #fb8500;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.white {
+  filter: sepia(100%) brightness(1.5);
+}
+
+.back {
+  background: #F5F5F5;
+}
+
+.fivestar {
+  width: 150px;
+  height: 30px;
+  background: transparent url(../icons/Icon\ ionic-ios-star.svg) repeat-x;
+  background-size: 30px;
+}
+
+.bc {
+  color: #023047;
+}
+
+.top {
+  box-shadow: 1px 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.top p {
+  color: #fb8500;
+}
+
+.topbar .row .col-lg-10 .blue-text {
+  color: #023047;
+  font-size: 12px;
+}
+.topbar .row .col-lg-10 a {
+  color: #707070;
+  font-size: 16px;
+}
+
+.navbar {
+  background: #023047;
+}
+
+.banner {
+  position: relative;
+}
+.banner img {
+  max-width: 100%;
+}
+.banner p {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  z-index: 2;
+  color: #fff;
+  font-weight: 600;
+  font-size: 48px;
+}
+.banner .pop {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 10px;
+  bottom: -45px;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  box-shadow: 1px 0 5px 3px rgba(0, 0, 0, 0.2);
+}
+.banner .col-lg-2 button {
+  background: #023047;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  letter-spacing: 4px;
+}
+.banner .form-select {
+  border: none !important;
+  border-bottom: 0.5px solid #ddd !important;
+  padding-top: 10px;
+}
+
+.pop-down {
+  background: #F5F5F5;
+  padding-top: 90px;
+}
+
+.popular .card {
+  border-radius: 20px;
+}
+.popular .row button {
+  color: #fb8500;
+  border: none;
+  border-radius: 4px;
+}
+.popular .row .imgBox {
+  position: relative;
+}
+.popular .row .imgBox .best,
+.popular .row .imgBox .bestt {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 4px;
+  background: #fc9e35;
+  color: #fff;
+  display: inline-block;
+  width: 140px;
+  padding: 4px;
+  text-align: center;
+  font-size: 16px;
+}
+.popular .row .imgBox .bestt {
+  background: #a38059;
+  margin-right: 5px;
+}
+
+.feature .card img {
+  position: relative;
+}
+.feature .featured {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #fb8500;
+  color: #fff;
+  border-radius: 5px;
+}
+.feature .card-img-top {
+  width: 100%;
+}
+.feature .card-body {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  top: -20px;
+  background: white;
+}
+.feature .star-right img {
+  width: 21px;
+  height: 12px;
+}
+.feature .star-right img:last-child {
+  filter: grayscale(5) brightness(0.7);
+}
+.feature .down {
+  background: #F5F5F5;
+  border-radius: 10px;
+}
+.feature .down .clock {
+  width: 14.5px;
+  height: 14.5px;
+}
+.feature .down .rightpop {
+  color: #219ebc;
+}
+.feature .font {
+  font-size: 12px;
+}
+
+.banner2 {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: url("../img/slider1596419952_summitclimb-expedition.jpg");
+  height: 100vh;
+}
+.banner2 .bg-overlay {
+  background: rgba(29, 27, 27, 0.4);
+  height: 100%;
+}
+.banner2 .heli {
+  color: #fb8500;
+  font-size: 64px;
+  font-weight: 550;
+}
+.banner2 .d-flex p {
+  font-weight: 300;
+  color: #91c4eb;
+  margin-bottom: 6px !important;
+  text-align: start;
+}
+.banner2 .btnn {
+  color: #023047;
+  border: 1px solid #fff;
+}
+
+.info {
+  background: #F5F5F5;
+}
+.info .btnn img {
+  filter: sepia(100%) brightness(1.5);
+}
+
+.destinations .col-lg-4 {
+  position: relative;
+}
+.destinations .texthead {
+  position: absolute;
+  left: 12px;
+  color: #fff;
+  box-shadow: -15px -40px 40px 0 rgba(255, 255, 255, 0.6) inset;
+  padding: 20px;
+  width: 100%;
+  bottom: 0;
+}
+.destinations .texthead p {
+  margin-bottom: 0;
+}
+
+.slider .box {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 3px 0px 3px 2px rgba(132, 129, 129, 0.2);
+}
+.slider .box .slid {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.slider .box .star img {
+  width: 14px;
+  height: 13px;
+}
+.slider .box p {
+  font-size: 15px;
+}
+
+.subscribe p {
+  font-size: 13px;
+  color: #023047;
+}
+.subscribe .btn {
+  background: #023047 !important;
+  color: #fff;
+}
+
+footer {
+  background: #023047;
+}
+footer ul {
+  padding: 0;
+}
+footer .icon li {
+  display: inline-block;
+  padding-right: 5px;
+}
+footer form input, footer form textarea {
+  width: 280px;
+  margin: 5px 0;
+  padding: 4px;
+  border-radius: 5px;
+  border: 1.5px solid rgb(179, 175, 175);
+  background: #003A57;
+  color: #fff;
+}
+footer form input::-moz-placeholder, footer form textarea::-moz-placeholder {
+  font-size: 12px;
+  color: #ddd;
+  padding-left: 5px;
+}
+footer form input:-ms-input-placeholder, footer form textarea:-ms-input-placeholder {
+  font-size: 12px;
+  color: #ddd;
+  padding-left: 5px;
+}
+footer form input::placeholder, footer form textarea::placeholder {
+  font-size: 12px;
+  color: #ddd;
+  padding-left: 5px;
+}
+footer form .bttn img {
+  filter: sepia(100%) brightness(1.5px);
+}
+
+.below-footer {
+  color: #023047;
+}
+
+.end {
+  color: #023047;
+}/*# sourceMappingURL=style.css.map */

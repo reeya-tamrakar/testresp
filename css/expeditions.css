@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  color: #fff;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+h3,
+h4 {
+  color: #023047;
+  font-size: 32px;
+}
+
+.btnn {
+  border: none;
+  background: #fb8500;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.white {
+  filter: sepia(100%) brightness(1.5);
+}
+
+.back {
+  background: #F5F5F5;
+}
+
+.fivestar {
+  width: 150px;
+  height: 30px;
+  background: transparent url(../icons/Icon\ ionic-ios-star.svg) repeat-x;
+  background-size: 30px;
+}
+
+.bc {
+  color: #023047;
+}
+
+.trip-overview, .itinerary, .cost, .gallery, .review, .join {
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 1px 1px rgb(198, 193, 193);
+}
+
+.lh-lg.wrong li::before {
+  content: url("../icons/Icon material-cancel.svg");
+}
+.lh-lg li {
+  position: relative;
+}
+.lh-lg li::before {
+  content: url("../icons/Icon awesome-check-circle.jpg");
+  position: absolute;
+  left: -25px;
+  top: 5px;
+}
+
+.itinerary .accordion-item {
+  border: none;
+  border-bottom: 2px dashed #000;
+}
+
+.gallery .d-flex img {
+  max-width: 31%;
+}
+
+.b {
+  font-size: 11px;
+}
+
+.bt {
+  border: 1px solid #fb8500;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.group {
+  position: relative;
+  background: #e5d3d3;
+  border: 1px solid rgb(174, 168, 168);
+  border-bottom: none;
+}
+.group img {
+  position: absolute;
+  top: -5px;
+  right: 50%;
+  transform: translateX(50%);
+}
+.group h5 {
+  color: #fb8500;
+}
+
+.group1 {
+  border: 1px solid rgb(174, 168, 168);
+  border-top: none;
+  background: #e5d3d3;
+}
+.group1 .b {
+  background: #219EBC;
+  border-radius: 8px;
+  border: none;
+}
+.group1 .but {
+  border: 1px solid #ffb703;
+  color: #ffb703;
+}
+
+.pax {
+  font-size: 12px;
+}
+.pax tr td:nth-child(2)::before {
+  content: "-----------";
+}/*# sourceMappingURL=expeditions.css.map */

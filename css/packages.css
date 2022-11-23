@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  color: #fff;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+h3,
+h4 {
+  color: #023047;
+  font-size: 32px;
+}
+
+.btnn {
+  border: none;
+  background: #fb8500;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.white {
+  filter: sepia(100%) brightness(1.5);
+}
+
+.back {
+  background: #F5F5F5;
+}
+
+.fivestar {
+  width: 150px;
+  height: 30px;
+  background: transparent url(../icons/Icon\ ionic-ios-star.svg) repeat-x;
+  background-size: 30px;
+}
+
+.bc {
+  color: #023047;
+}
+
+.col-lg-2 {
+  font-size: 12px;
+}
+
+.form-select {
+  padding-left: 25px;
+  background: url("../icons/Icon material-date-range_grey.svg") no-repeat;
+  background-position: 5px 5px;
+  color: grey;
+  font-size: 10px;
+}
+
+.image {
+  position: relative;
+}
+.image .i {
+  height: auto;
+  width: 328px;
+}
+.image .best {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 4px;
+  background: #ffb703;
+  color: #fff;
+  display: inline-block;
+  width: 120px;
+  padding: 4px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.data {
+  font-size: 12px;
+}
+.data td {
+  padding-right: 15px;
+}
+.data .tick td::before {
+  content: url("../icons/Icon awesome-check.svg");
+}
+
+.btt {
+  border: 1.5px solid #ffb703;
+  background-color: transparent;
+}
+
+.square {
+  border: 1.5px dashed #ffb703;
+}/*# sourceMappingURL=packages.css.map */

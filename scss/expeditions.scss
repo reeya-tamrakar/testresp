@@ -1,0 +1,66 @@
+@import "var";
+
+.trip-overview,.itinerary,.cost,.gallery,.review,.join{
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 1px 1px rgb(198, 193, 193);
+}
+
+.lh-lg {
+    &.wrong li::before { content: url('../icons/Icon material-cancel.svg'); }
+    li {
+        position: relative;
+        &::before {
+            content: url('../icons/Icon awesome-check-circle.jpg');
+            position: absolute;
+            left: -25px;
+            top: 5px;
+        }
+    }
+}
+
+.itinerary{
+    .accordion-item{
+        border: none;
+        border-bottom: 2px dashed #000;
+    }
+}
+.gallery {
+    .d-flex {
+        img {
+            max-width: 31%;
+        }
+    }
+}
+
+.b{font-size: 11px;}
+.bt{border: 1px solid $orange; border-radius: 4px; background: #fff;}
+
+.group{
+    position: relative;
+    background: #e5d3d3;
+    border: 1px solid rgb(174, 168, 168);
+    border-bottom: none;
+    img{
+        position: absolute;
+        top: -5px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    h5{color: $orange;}
+}
+.group1{
+    border: 1px solid rgb(174, 168, 168);
+    border-top: none;
+    background: #e5d3d3;
+    .b{background:#219EBC; border-radius: 8px; border: none;}
+    .but{
+        border: 1px solid $yellow;
+        color: $yellow;
+    }
+}
+.pax {
+    font-size: 12px;
+    tr td:nth-child(2)::before {
+        content: '-----------'
+    }
+}

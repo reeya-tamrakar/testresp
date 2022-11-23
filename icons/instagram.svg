@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="instagram" transform="translate(-218 -5842)">
+    <g id="Icon_feather-instagram" data-name="Icon feather-instagram" transform="translate(225.542 5850)">
+      <path id="Path_13" data-name="Path 13" d="M6.479,3h6.958a3.479,3.479,0,0,1,3.479,3.479v6.958a3.479,3.479,0,0,1-3.479,3.479H6.479A3.479,3.479,0,0,1,3,13.438V6.479A3.479,3.479,0,0,1,6.479,3Z" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_14" data-name="Path 14" d="M17.6,14.31a2.783,2.783,0,1,1-2.345-2.345A2.783,2.783,0,0,1,17.6,14.31Z" transform="translate(-4.86 -4.79)" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_15" data-name="Path 15" d="M26.25,9.75h0" transform="translate(-12.464 -3.619)" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+    <g id="Ellipse_13_insta" data-name="Ellipse 13_insta" transform="translate(218 5842)" fill="none" stroke="#fff" stroke-width="1">
+      <circle cx="17.5" cy="17.5" r="17.5" stroke="none"/>
+      <circle cx="17.5" cy="17.5" r="17" fill="none"/>
+    </g>
+  </g>
+</svg>
